@@ -1,0 +1,17 @@
+function criarAbertura(titulo, descricao, link) {
+    return {
+        titulo: titulo,
+        descricao: descricao,
+        link: link      
+    };
+}
+
+let dados = [
+    criarAbertura("Ruy Lopéz", "A Ruy Lopez(também conhecida como Abertura Espanhola) é uma das aberturas mais antigas e analisadas da história do xadrez.A maioria dos melhores jogadores do mundo adotou essa abertura rica como parte de seu repertório, e muitos deles a jogam com ambas as cores.Apesar de ter uma grande quantidade de teoria, é uma abertura que jogadores de todos os níveis podem desfrutar.", "https://www.chessgames.com/perl/chessgame?gid=1820409"),
+    criarAbertura("Gambito da Dama", "O Gambito da Dama é uma das aberturas mais antigas e respeitáveis para 1.d4 do Branco.Ao contrário das aberturas de 1.e4, o Gambito da Dama geralmente evolui para um jogo estratégico em vez de uma batalha tática total.Apesar de existir há séculos, essa abertura continua sendo um dos pilares do repertório de todos os jogadores de elite.Também é uma excelente escolha para iniciantes e jogadores intermediários.", "https://www.chessgames.com/perl/chessgame?gid=1820454"),
+    criarAbertura("Inglesa", "A Abertura Inglesa é uma abertura de flanco onde o Branco avança seu peão c duas casas em vez dos peões d ou e.A Inglesa é uma abertura altamente transposicional, o que significa que em muitos casoso jogo chegará à mesma posição que surge de outras aberturas e através de diferentes ordens de movimentos.A Abertura Inglesa é mais adequada para jogadores intermediários e avançados e exige maior compreensão dos conceitos posicionais.", "https://www.chessgames.com/perl/chessgame?gid=2563591"),
+    criarAbertura("Siciliana", "A Defesa Siciliana é a resposta mais popular ao 1.e4 do Branco.Empregada por mestres e iniciantes igualmente, a Defesa Siciliana é uma abertura respeitável e posicionamente sólida.Ainda assim, a Siciliana é uma abertura combativa que tende a levar a posições dinâmicas e agudas.", "https://www.chessgames.com/perl/chessgame?gid/1070174"),
+    criarAbertura("Caro-Kann", "A Defesa Caro-Kann é conhecida acima de tudo por sua solidez.O movimento definidor, 1...c6, é a quarta resposta mais popular a 1.e4 e quase duas vezes mais comum que o movimento número cinco.Ela prepara para 2...d5 sem bloquear o bispo de casas claras, que é considerado a principal desvantagem de sua prima, a Defesa Francesa (1.e4 e6). Uma opção padrão para jogadores posicionais em quase todos os níveis.", "https://www.chessgames.com/perl/chessgame?gid=1994565"),
+    criarAbertura("Francesa", "A Defesa Francesa é uma das respostas mais populares do Preto a 1.e4.Ela faz parte do repertório dos mestres desde o século XIX e é uma das favoritas dos jogadores posicionais.Geralmente levando a jogos mais lentos, essa abertura é uma boa escolha para jogadores de todos os níveis.", "https://www.chessgames.com/perl/chessgame?gid/1044325"),
+    criarAbertura("Eslava", "A Defesa Eslava é uma abertura sólida para o Preto em resposta ao Gambito da Dama do Branco (1.d4 d5 2.c4).O Preto luta por igualdade contra uma das aberturas mais populares do Branco sem criar um mau bispo de casas claras—uma das desvantagens de outras defesas como a Defesa Francesa e o Gambito da Dama Recusado.", "https://www.chessgames.com/perl/chessgame?gid/1032558")
+];
